@@ -49,7 +49,7 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 
 	var infoDisplay:String = CoolUtil.dashToSpace(PlayState.SONG.song);
 	var diffDisplay:String = CoolUtil.difficultyFromNumber(PlayState.storyDifficulty);
-	var engineDisplay:String = "FOREVER ENGINE LEGACY v" + Main.gameVersion;
+	var engineDisplay:String = "FOREVER PSYCH v" + Main.gameVersion;
 
 	// eep
 	public function new()
@@ -59,7 +59,7 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 
 		// le healthbar setup
 		var barY = FlxG.height * 0.875;
-		if (Init.trueSettings.get('Downscroll'))
+		if (ClientPrefs.downScroll)
 			barY = 64;
 
 		healthBarBG = new FlxSprite(0,
