@@ -1,12 +1,12 @@
 {
 	"songs": [
-		["Tutorial", "gf", [165, 0, 77]]
+		["test", "bf-pixel", [165, 0, 77]]
 	],
 
 	"weekCharacters": [
 		"",
 		"bf",
-		"gf"
+		""
 	],
 	"weekBackground": "stage",
 
